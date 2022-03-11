@@ -395,6 +395,9 @@
                                   }
                                 }
                               },
+                              "index": {
+                                "type": "integer"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1081,6 +1084,9 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "index": {
+                                              "type": "integer"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -1819,6 +1825,9 @@
                                 }
                               }
                             },
+                            "index": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2506,6 +2515,9 @@
                                               }
                                             }
                                           },
+                                          "index": {
+                                            "type": "integer"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -2772,6 +2784,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "index": {
+                        "type": "integer"
                       }
                     }
                   }
@@ -3175,6 +3190,9 @@
                                 }
                               }
                             },
+                            "index": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3861,6 +3879,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "index": {
+                                            "type": "integer"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -4508,6 +4529,9 @@
                                 }
                               }
                             },
+                            "index": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5195,6 +5219,9 @@
                                               }
                                             }
                                           },
+                                          "index": {
+                                            "type": "integer"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -5472,6 +5499,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "index": {
+                        "type": "integer"
                       },
                       "createdAt": {
                         "type": "string",
@@ -6101,6 +6131,9 @@
                                 }
                               }
                             },
+                            "index": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -6788,6 +6821,9 @@
                                               }
                                             }
                                           },
+                                          "index": {
+                                            "type": "integer"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -7065,6 +7101,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "index": {
+                        "type": "integer"
                       }
                     }
                   }

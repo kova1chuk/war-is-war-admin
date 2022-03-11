@@ -28,7 +28,7 @@
     "value": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "integer",
@@ -46,6 +46,16 @@
           "localized": false
         }
       }
+    },
+    "index": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer",
+      "unique": false,
+      "required": true
     }
   }
 }
