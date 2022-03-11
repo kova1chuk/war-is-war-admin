@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-03-11T00:05:42.326Z"
+    "x-generation-date": "2022-03-11T01:23:42.060Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -72,8 +72,12 @@
                               "title": {
                                 "type": "string"
                               },
-                              "subTitle": {
+                              "dateTitle": {
                                 "type": "string"
+                              },
+                              "date": {
+                                "type": "string",
+                                "format": "date"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -389,8 +393,12 @@
                                             "title": {
                                               "type": "string"
                                             },
-                                            "subTitle": {
+                                            "dateTitle": {
                                               "type": "string"
+                                            },
+                                            "date": {
+                                              "type": "string",
+                                              "format": "date"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -756,8 +764,12 @@
                             "title": {
                               "type": "string"
                             },
-                            "subTitle": {
+                            "dateTitle": {
                               "type": "string"
+                            },
+                            "date": {
+                              "type": "string",
+                              "format": "date"
                             },
                             "createdAt": {
                               "type": "string",
@@ -1073,8 +1085,12 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "subTitle": {
+                                          "dateTitle": {
                                             "type": "string"
+                                          },
+                                          "date": {
+                                            "type": "string",
+                                            "format": "date"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -1329,8 +1345,12 @@
                       "title": {
                         "type": "string"
                       },
-                      "subTitle": {
+                      "dateTitle": {
                         "type": "string"
+                      },
+                      "date": {
+                        "type": "string",
+                        "format": "date"
                       },
                       "createdAt": {
                         "type": "string",
@@ -1576,8 +1596,12 @@
                             "title": {
                               "type": "string"
                             },
-                            "subTitle": {
+                            "dateTitle": {
                               "type": "string"
+                            },
+                            "date": {
+                              "type": "string",
+                              "format": "date"
                             },
                             "createdAt": {
                               "type": "string",
@@ -1893,8 +1917,12 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "subTitle": {
+                                          "dateTitle": {
                                             "type": "string"
+                                          },
+                                          "date": {
+                                            "type": "string",
+                                            "format": "date"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -2146,62 +2174,9 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "title": {
-                        "type": "string"
-                      },
-                      "subTitle": {
-                        "type": "string"
-                      },
-                      "createdAt": {
+                      "date": {
                         "type": "string",
-                        "format": "date-time"
-                      },
-                      "updatedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "publishedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "createdBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "updatedBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "localizations": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "locale": {
-                        "type": "string"
+                        "format": "date"
                       }
                     }
                   }

@@ -22,8 +22,12 @@
                               "title": {
                                 "type": "string"
                               },
-                              "subTitle": {
+                              "dateTitle": {
                                 "type": "string"
+                              },
+                              "date": {
+                                "type": "string",
+                                "format": "date"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -339,8 +343,12 @@
                                             "title": {
                                               "type": "string"
                                             },
-                                            "subTitle": {
+                                            "dateTitle": {
                                               "type": "string"
+                                            },
+                                            "date": {
+                                              "type": "string",
+                                              "format": "date"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -706,8 +714,12 @@
                             "title": {
                               "type": "string"
                             },
-                            "subTitle": {
+                            "dateTitle": {
                               "type": "string"
+                            },
+                            "date": {
+                              "type": "string",
+                              "format": "date"
                             },
                             "createdAt": {
                               "type": "string",
@@ -1023,8 +1035,12 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "subTitle": {
+                                          "dateTitle": {
                                             "type": "string"
+                                          },
+                                          "date": {
+                                            "type": "string",
+                                            "format": "date"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -1279,8 +1295,12 @@
                       "title": {
                         "type": "string"
                       },
-                      "subTitle": {
+                      "dateTitle": {
                         "type": "string"
+                      },
+                      "date": {
+                        "type": "string",
+                        "format": "date"
                       },
                       "createdAt": {
                         "type": "string",
@@ -1526,8 +1546,12 @@
                             "title": {
                               "type": "string"
                             },
-                            "subTitle": {
+                            "dateTitle": {
                               "type": "string"
+                            },
+                            "date": {
+                              "type": "string",
+                              "format": "date"
                             },
                             "createdAt": {
                               "type": "string",
@@ -1843,8 +1867,12 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "subTitle": {
+                                          "dateTitle": {
                                             "type": "string"
+                                          },
+                                          "date": {
+                                            "type": "string",
+                                            "format": "date"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -2096,62 +2124,9 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "title": {
-                        "type": "string"
-                      },
-                      "subTitle": {
-                        "type": "string"
-                      },
-                      "createdAt": {
+                      "date": {
                         "type": "string",
-                        "format": "date-time"
-                      },
-                      "updatedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "publishedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "createdBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "updatedBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "localizations": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "locale": {
-                        "type": "string"
+                        "format": "date"
                       }
                     }
                   }
