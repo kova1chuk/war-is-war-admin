@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-03-11T01:23:42.060Z"
+    "x-generation-date": "2022-03-15T02:22:28.838Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2585,6 +2585,9 @@
                               "index": {
                                 "type": "integer"
                               },
+                              "lastDayLosses": {
+                                "type": "integer"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -3273,6 +3276,9 @@
                                               }
                                             },
                                             "index": {
+                                              "type": "integer"
+                                            },
+                                            "lastDayLosses": {
                                               "type": "integer"
                                             },
                                             "createdAt": {
@@ -4015,6 +4021,9 @@
                             "index": {
                               "type": "integer"
                             },
+                            "lastDayLosses": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -4703,6 +4712,9 @@
                                             }
                                           },
                                           "index": {
+                                            "type": "integer"
+                                          },
+                                          "lastDayLosses": {
                                             "type": "integer"
                                           },
                                           "createdAt": {
@@ -5380,6 +5392,9 @@
                             "index": {
                               "type": "integer"
                             },
+                            "lastDayLosses": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -6068,6 +6083,9 @@
                                             }
                                           },
                                           "index": {
+                                            "type": "integer"
+                                          },
+                                          "lastDayLosses": {
                                             "type": "integer"
                                           },
                                           "createdAt": {
@@ -6719,6 +6737,9 @@
                             "index": {
                               "type": "integer"
                             },
+                            "lastDayLosses": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7409,6 +7430,9 @@
                                           "index": {
                                             "type": "integer"
                                           },
+                                          "lastDayLosses": {
+                                            "type": "integer"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -7688,6 +7712,9 @@
                         "example": "string or id"
                       },
                       "index": {
+                        "type": "integer"
+                      },
+                      "lastDayLosses": {
                         "type": "integer"
                       },
                       "createdAt": {
@@ -8321,6 +8348,9 @@
                             "index": {
                               "type": "integer"
                             },
+                            "lastDayLosses": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -9009,6 +9039,9 @@
                                             }
                                           },
                                           "index": {
+                                            "type": "integer"
+                                          },
+                                          "lastDayLosses": {
                                             "type": "integer"
                                           },
                                           "createdAt": {

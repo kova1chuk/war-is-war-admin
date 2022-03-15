@@ -398,6 +398,9 @@
                               "index": {
                                 "type": "integer"
                               },
+                              "lastDayLosses": {
+                                "type": "integer"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1086,6 +1089,9 @@
                                               }
                                             },
                                             "index": {
+                                              "type": "integer"
+                                            },
+                                            "lastDayLosses": {
                                               "type": "integer"
                                             },
                                             "createdAt": {
@@ -1828,6 +1834,9 @@
                             "index": {
                               "type": "integer"
                             },
+                            "lastDayLosses": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2516,6 +2525,9 @@
                                             }
                                           },
                                           "index": {
+                                            "type": "integer"
+                                          },
+                                          "lastDayLosses": {
                                             "type": "integer"
                                           },
                                           "createdAt": {
@@ -3193,6 +3205,9 @@
                             "index": {
                               "type": "integer"
                             },
+                            "lastDayLosses": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3881,6 +3896,9 @@
                                             }
                                           },
                                           "index": {
+                                            "type": "integer"
+                                          },
+                                          "lastDayLosses": {
                                             "type": "integer"
                                           },
                                           "createdAt": {
@@ -4532,6 +4550,9 @@
                             "index": {
                               "type": "integer"
                             },
+                            "lastDayLosses": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5222,6 +5243,9 @@
                                           "index": {
                                             "type": "integer"
                                           },
+                                          "lastDayLosses": {
+                                            "type": "integer"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -5501,6 +5525,9 @@
                         "example": "string or id"
                       },
                       "index": {
+                        "type": "integer"
+                      },
+                      "lastDayLosses": {
                         "type": "integer"
                       },
                       "createdAt": {
@@ -6134,6 +6161,9 @@
                             "index": {
                               "type": "integer"
                             },
+                            "lastDayLosses": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -6822,6 +6852,9 @@
                                             }
                                           },
                                           "index": {
+                                            "type": "integer"
+                                          },
+                                          "lastDayLosses": {
                                             "type": "integer"
                                           },
                                           "createdAt": {
